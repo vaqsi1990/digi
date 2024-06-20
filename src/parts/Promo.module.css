@@ -1,0 +1,66 @@
+.promo {
+
+    background-color: rgba(43, 64, 116, 1);
+}
+
+
+
+.container{
+    padding: 0 100px;
+    align-items: center;
+    height: 160px;
+  
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.promoText{
+    width: 695px;
+height: 80px;
+top: 40px;
+left: 46px;
+gap: 0px;
+opacity: 0px;
+
+color: white;
+}
+
+.promoText p {
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+}
+
+.promoText h3{
+    font-family: Dosis;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    
+}
+
+.btn {
+ 
+    
+    opacity: 0px;
+    background-color: white;
+    
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 12px 32px;
+    text-align: center;
+    cursor: pointer !important;
+  
+font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+}
+
+

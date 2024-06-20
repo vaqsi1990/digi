@@ -1,0 +1,49 @@
+.navbar{
+
+    background-color: rgba(43, 64, 116, 1);
+}
+.container{
+   
+    align-items: center;
+  
+  
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+   
+
+
+width: 100px;
+height: 65.73px;
+top: 17px;
+left: 61px;
+gap: 0px;
+opacity: 0px;
+
+
+
+
+}
+
+
+.burger {
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 1250px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+}
+
+
+
+
+
+
+
+

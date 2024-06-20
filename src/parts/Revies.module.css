@@ -1,0 +1,18 @@
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 480px;
+flex-direction: row;
+}
+
+.container{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}

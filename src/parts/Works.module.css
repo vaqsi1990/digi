@@ -1,0 +1,130 @@
+.works {
+    height: 668px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    text-align: center; /* Center text inside items */
+}
+
+.header {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56.25px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 50px; 
+}
+
+.header p {
+    margin-bottom: 10px;
+}
+
+.houses {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 268px;
+    height: 300px; 
+    justify-content: center;
+}
+
+.first img {
+    width: 268px;
+    height: 239px;
+    object-fit: cover; 
+}
+
+.first p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgba(43, 64, 116, 1);
+    margin-top: 10px; 
+}
+
+.line{
+    width: 100px;
+height: 8px;
+top: 76px;
+left: 109px;
+gap: 0px;
+opacity: 0px;
+border-bottom: 6px solid white;
+margin: 0 auto;
+margin-bottom: 50px;
+}
+
+.icon {
+    Width: 243px;
+    Height: 217px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    opacity: 0.7;
+    position: absolute;
+    background: rgba(249, 246, 229, 1);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  
+.search{
+    width: 32.46px;
+    height: 31.99px;
+    left: 37.54px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+}
+
+.pirveli{
+    width: 27.98px;
+height: 27.58px;
+top: 2px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+@media screen and (max-width: 1025px) {
+    .houses {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .first {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .works {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .houses {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+  }
